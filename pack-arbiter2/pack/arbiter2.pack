@@ -3,7 +3,7 @@
     "description":"Check shinken 2.x daemon health.",
     "path":"shinken/",
     "macros":{
-        "_shinken_daemon": {
+        "_shinken_daemons": {
             "type":"list",
             "description": "list of daemon types to check (arbiter,poller,broker,scheduler,receiver,reactionner)"
         },
