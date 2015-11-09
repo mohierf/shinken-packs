@@ -6,6 +6,12 @@
 "path":"os/",
 
 "macros":{
+         "_UPTIME_WARN": {"type":"integer",
+                             "description": "Warning threshold for uptime less than 15 min"
+                             },
+         "_UPTIME_CRIT": {"type":"integer",
+                             "description": "Critical threshold for uptime less than 5 min"
+                             },
          "_LOAD_WARN": {"type":"integer",
                              "description": "Warning threshold for load average at 5m"
                              },
